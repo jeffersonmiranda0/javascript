@@ -1,0 +1,68 @@
+#confirm{
+	top: 30px;
+	left: -200px;
+	width: 400px;
+	margin-left: 50%;
+	position: absolute;
+	border: 1px solid #cdcdcd;
+	background: #ffffff;
+	font-family: sans-serif;
+}
+#confirm h1{
+	font-size: 25px;
+	margin: 20px 20px -15px 20px;
+}
+#confirm p{
+	font-size: 14px;
+	margin: 0 0 20px 20px;
+}
+#confirm table{
+	width: 80%;
+	margin: 0 auto;
+	border-spacing: 0;
+	border: 1px solid #f1f1f1;
+}
+#confirm table tr td{
+	padding: 5px 10px 5px 10px;
+}
+
+#confirm table tr:nth-child(odd){
+	background: #f1f1f1;
+}
+#confirm table tr td:nth-child(odd){
+	text-align: right;
+	width: 40%;
+	border-right: 1px solid #f1f1f1;
+}
+#confirm table tr td:nth-child(even){
+	font-weight: bold;
+	border-left: 1px solid #ffffff;
+}
+#confirm .option{
+	width: 50%;
+	margin: 20px 0 0 0;
+	padding: 15px 0 15px 0;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+}
+#confirm .option:nth-child(odd){
+	background: blue
+}
+#confirm .option:nth-child(even){
+	background: red
+}
+
+
+#confirmShadow{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+	background: #f1f1f1;
+}
